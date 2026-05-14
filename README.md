@@ -9,7 +9,8 @@ Automated UI test suite for Automation Exercise using:
 - Allure Reporting
 
 ## Test Coverage
-
+### Allure Report:
+![Report](https://github.com/VashishthSoni/automationexercise-test-automation/blob/main/utilities/Allure%20Report.png)
 
 ✔ User Registration  
 ✔ Login / Logout  
@@ -24,6 +25,13 @@ Automated UI test suite for Automation Exercise using:
 **Status:** 25 Passed
 
 ## Run Tests
-
+1. Run Pytest Test
 ```bash
 pytest -v 
+```
+
+2. Run Pytest and Generate Allure Report
+```bash
+pytest --reruns 2 --alluredir=allure-results
+allure serve allure-results
+```
