@@ -44,8 +44,15 @@ Automated UI test suite for Automation Exercise using:
 **Total Tests:** 26  
 **Status:** 26 Passed
 
+
+## Setup
+Install project dependencies
+```bash
+pip install -r requirements.txt
+```
+
 ## Run Tests
-1. Run Pytest Test
+1. Run All Pytest Tests
 ```bash
 pytest -v 
 ```
